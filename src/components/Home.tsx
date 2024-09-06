@@ -42,7 +42,7 @@ function Home() {
         <div className="min-h-screen bg-black text-white">
             <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm">
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                    <h1 className="text-2xl font-bold">Jane Doe</h1>
+                    <h1 className="text-2xl font-bold">Francislainy Campos</h1>
                     <nav className="hidden md:flex space-x-6">
                         <a href="#about" className="hover:text-gray-300 transition-colors">About</a>
                         <a href="#projects" className="hover:text-gray-300 transition-colors">Projects</a>
@@ -130,10 +130,6 @@ function Home() {
                       </span>
                                         ))}
                                     </div>
-                                    {/*<a href="#"*/}
-                                    {/*   className="inline-flex items-center text-sm font-medium text-black hover:underline">*/}
-                                    {/*    View Project <ChevronRight className="ml-1 h-4 w-4"/>*/}
-                                    {/*</a>*/}
                                     <Link to={`/project/${project.id}`} className="inline-flex items-center text-sm font-medium text-black hover:underline">
                                         View Project <ChevronRight className="ml-1 h-4 w-4" />
                                     </Link>
@@ -191,7 +187,7 @@ function Home() {
 
             <footer className="bg-gray-900 py-8">
                 <div className="container mx-auto px-4 text-center text-gray-400">
-                    <p>&copy; 2023 Jane Doe. All rights reserved.</p>
+                    <p>&copy; 2024 Francislainy Campos. All rights reserved.</p>
                 </div>
             </footer>
         </div>
