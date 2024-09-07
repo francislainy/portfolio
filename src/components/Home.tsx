@@ -49,9 +49,11 @@ function Home() {
                         <a href="#skills" className="hover:text-gray-300 transition-colors">Skills</a>
                         <a href="#contact" className="hover:text-gray-300 transition-colors">Contact</a>
                     </nav>
-                    <Button className="md:hidden" onClick={() => setIsMenuOpen(true)}>
-                        <Menu className="h-6 w-6"/>
-                    </Button>
+                    <div className="md:hidden">
+                        <Button onClick={() => setIsMenuOpen(true)}>
+                            <Menu className="h-6 w-6"/>
+                        </Button>
+                    </div>
                 </div>
             </header>
 
