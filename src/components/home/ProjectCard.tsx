@@ -7,7 +7,7 @@ import { LucideIcon } from 'lucide-react';
 interface ProjectProps {
     project: {
         id: number;
-        name: string;
+        title: string;
         description: string;
         icon: LucideIcon;
         technologies: string[];
@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectProps> = ({ project, index }) => {
     >
     <div className="flex items-center mb-4">
     <Icon className="w-8 h-8" />
-    <h4 className="text-2xl font-semibold ml-4">{project.name}</h4>
+    <h4 className="text-2xl font-semibold ml-4">{project.title}</h4>
         </div>
         <p className="text-gray-600 mb-4">{project.description}</p>
         <div className="flex flex-wrap gap-2 mb-4">

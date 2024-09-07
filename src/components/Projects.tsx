@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './home/ProjectCard.tsx';
 import projectsData from "../data/projectsData.ts";
 
 const Projects: React.FC = () => {
