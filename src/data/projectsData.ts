@@ -10,6 +10,7 @@ interface Project {
     overview: string;
     keyFeatures: string[];
     longerDescription: string;
+    technicalDecisions?: string[];
 }
 
 const projectsData: Project[] = [
@@ -22,6 +23,7 @@ const projectsData: Project[] = [
         overview: "The E-commerce API is designed to provide a solid foundation for building scalable online retail platforms. It leverages Spring Boot's powerful features to deliver high performance, security, and flexibility.",
         keyFeatures: ["RESTful API design", "Product catalog management", "User authentication and authorization", "Order processing and inventory management", "Payment gateway integration", "Caching for improved performance", "Comprehensive API documentation"],
         longerDescription: "A robust and scalable RESTful API built with Spring Boot to power modern e-commerce platforms. This API provides a comprehensive suite of endpoints for managing products, orders, users, and payments.",
+        technicalDecisions: ["Using Spring Data JPA for efficient data access and management", "Implementing Redis for caching to improve response times", "Containerizing the application with Docker for easy deployment and scaling", "Comprehensive error handling and validation for robust API responses"],
     },
     {
         id: 2,

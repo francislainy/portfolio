@@ -28,7 +28,10 @@ const ProjectDetail: React.FC = () => {
                         </div>
                     </div>
                 </section>
-                <ProjectOverview overview={project.overview}/>
+                <ProjectOverview
+                    overview={project.overview}
+                    technicalDecisions={project.technicalDecisions ? project.technicalDecisions : []}
+                />
             </main>
         </div>
     );
