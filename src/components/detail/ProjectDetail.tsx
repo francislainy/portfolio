@@ -1,8 +1,8 @@
 import React from 'react';
-import ProjectHeader from './ProjectHeader';
-import ProjectOverview from './ProjectOverview';
-import ProjectFeatures from './ProjectFeatures';
-import TechnicalDetails from './TechnicalDetails';
+import ProjectHeader from './ProjectHeader.tsx';
+import ProjectFeatures from './ProjectFeatures.tsx';
+import ProjectOverview from './ProjectOverview.tsx';
+import ProjectDescription from "./ProjectDescription.tsx";
 
 const ProjectDetail: React.FC = () => {
     return (
@@ -12,14 +12,14 @@ const ProjectDetail: React.FC = () => {
                 <section className="container mx-auto px-4 py-8">
                     <div className="flex flex-col md:flex-row gap-8">
                         <div className="w-full md:w-1/2">
-                            <ProjectOverview />
+                            <ProjectDescription />
                         </div>
                         <div className="w-full md:w-1/2">
                             <ProjectFeatures />
                         </div>
                     </div>
                 </section>
-                <TechnicalDetails />
+                <ProjectOverview />
             </main>
         </div>
     );

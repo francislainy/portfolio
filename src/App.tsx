@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./components/home/Home.tsx";
-import ProjectDetail from "./components/ProjectDetail";
+import ProjectDetail from "./components/detail/ProjectDetail.tsx";
 
 function App() {
     return (
