@@ -1,17 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const features = [
-    "RESTful API design",
-    "Product catalog management",
-    "User authentication and authorization",
-    "Order processing and inventory management",
-    "Payment gateway integration",
-    "Caching for improved performance",
-    "Comprehensive API documentation",
-];
+interface ProjectFeaturesProps {
+    features: string[];
+}
 
-const ProjectFeatures: React.FC = () => {
+const ProjectFeatures: React.FC<ProjectFeaturesProps> = ({features}) => {
     return (
         <>
             <h3 className="text-xl font-semibold mb-4">Key Features</h3>
