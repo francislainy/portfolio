@@ -1,6 +1,6 @@
 import React from 'react';
-import ProjectCard from './home/ProjectCard.tsx';
-import projectsData from "../data/projectsData.ts";
+import ProjectCard from './ProjectCard.tsx';
+import projectsData from "../../data/projectsData.ts";
 
 const Projects: React.FC = () => {
     return (

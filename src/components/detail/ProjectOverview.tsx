@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TechnicalDetails: React.FC = () => {
+const ProjectOverview: React.FC = () => {
     return (
         <section className="container mx-auto px-4 py-8">
             <h3 className="text-xl font-semibold mb-4">Project Overview</h3>
@@ -22,4 +22,4 @@ const TechnicalDetails: React.FC = () => {
     );
 }
 
-export default TechnicalDetails;
+export default ProjectOverview;

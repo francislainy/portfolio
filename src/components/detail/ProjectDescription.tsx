@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { GitBranch } from 'lucide-react';
 import Button from "@mui/material/Button";
 
-const ProjectOverview: React.FC = () => {
+const ProjectDescription: React.FC = () => {
     return (
         <motion.div
             initial={{opacity: 0, y: 20}}
@@ -33,4 +33,4 @@ const ProjectOverview: React.FC = () => {
     );
 }
 
-export default ProjectOverview;
+export default ProjectDescription;
