@@ -1,4 +1,4 @@
-import { Database, Server, Code2, UserCheck } from 'lucide-react';
+import { Database, Server, Code2, BookOpen } from 'lucide-react';
 import { LucideIcon } from 'lucide-react';
 
 interface Project {
@@ -19,7 +19,7 @@ const projectsData: Project[] = [
         id: 1,
         title: "Du Chinese Backend",
         description: "A backend service for managing users and lessons for mimicking the Du Chinese application.",
-        icon: UserCheck,
+        icon: BookOpen,
         technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL"],
         overview: "This project is a Spring Boot application that provides RESTful APIs for user management and lesson interactions. It includes functionalities such as creating users, favoriting lessons, and marking lessons as read or unread.",
         keyFeatures: [
