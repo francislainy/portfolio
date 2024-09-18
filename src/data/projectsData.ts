@@ -1,4 +1,4 @@
-import { Database, Server, Code2 } from 'lucide-react';
+import { Database, Server, Code2, UserCheck } from 'lucide-react';
 import { LucideIcon } from 'lucide-react';
 
 interface Project {
@@ -11,11 +11,37 @@ interface Project {
     keyFeatures: string[];
     longerDescription: string;
     technicalDecisions?: string[];
+    githubUrl?: string;
 }
 
 const projectsData: Project[] = [
     {
         id: 1,
+        title: "du-chinese-be",
+        description: "A backend service for managing users and lessons for mimicking the Du Chinese application.",
+        icon: UserCheck,
+        technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL"],
+        overview: "This project is a Spring Boot application that provides RESTful APIs for user management and lesson interactions. It includes functionalities such as creating users, favoriting lessons, and marking lessons as read or unread.",
+        keyFeatures: [
+            "User creation and management",
+            "Favoriting lessons",
+            "Marking lessons as read or unread",
+            "Integration with PostgreSQL and H2 databases",
+            "Unit and integration tests using JUnit and Mockito",
+            "Pact for contract testing"
+        ],
+        longerDescription: "The `du-chinese-be` project is designed to handle backend operations for the Du Chinese application. It leverages Spring Boot for rapid development and includes various dependencies for web, security, and data management. The project also uses Lombok to reduce boilerplate code and includes comprehensive unit tests to ensure code quality.",
+        technicalDecisions: [
+            "Spring Boot: Chosen for its rapid development capabilities and extensive ecosystem.",
+            "PostgreSQL: Used as the primary database for its robustness and scalability.",
+            "H2 Database: Used for testing purposes to simplify setup and teardown.",
+            "JUnit and Mockito: Used for unit testing to ensure code reliability.",
+            "Pact: Used for contract testing to ensure API compatibility between this service and its corresponding user interface."
+        ],
+        githubUrl: "https://github.com/francislainy/du-chinese-be",
+    },
+    {
+        id: 2,
         title: "E-commerce API",
         description: "RESTful API for a scalable e-commerce platform",
         icon: Database,
@@ -26,7 +52,7 @@ const projectsData: Project[] = [
         technicalDecisions: ["Using Spring Data JPA for efficient data access and management", "Implementing Redis for caching to improve response times", "Containerizing the application with Docker for easy deployment and scaling", "Comprehensive error handling and validation for robust API responses"],
     },
     {
-        id: 2,
+        id: 3,
         title: "Task Management System",
         description: "Microservices-based task management solution",
         icon: Server,
@@ -36,7 +62,7 @@ const projectsData: Project[] = [
         longerDescription: "A distributed task management system built with Spring Boot and Spring Cloud. This application allows users to create, assign, and track tasks across teams. It is designed to be highly available, scalable, and fault-tolerant",
     },
     {
-        id: 3,
+        id: 4,
         title: "Auth Service",
         description: "Secure authentication and authorization service",
         icon: Code2,
@@ -46,7 +72,7 @@ const projectsData: Project[] = [
         longerDescription: "A secure authentication and authorization service built with Spring Security, JWT, and OAuth 2.0. This service provides user registration, login, role-based access control, and token-based authentication for applications and APIs.",
     },
     {
-        id: 4,
+        id: 5,
         title: "Real-time Analytics Engine",
         description: "High-performance data processing and analytics system",
         icon: Database,
