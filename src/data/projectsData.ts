@@ -17,7 +17,7 @@ interface Project {
 const projectsData: Project[] = [
     {
         id: 1,
-        title: "du-chinese-be",
+        title: "Du Chinese Backend",
         description: "A backend service for managing users and lessons for mimicking the Du Chinese application.",
         icon: UserCheck,
         technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL"],
