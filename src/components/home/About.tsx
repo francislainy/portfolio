@@ -1,9 +1,9 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
 
 const About: React.FC = () => {
     return (
-        <section id="about" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-900">
+        <section id="about"
+                 className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-900">
             <div className="text-center px-4">
                 <motion.h2
                     initial={{opacity: 0, y: 20}}

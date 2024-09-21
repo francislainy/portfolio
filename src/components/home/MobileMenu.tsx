@@ -1,6 +1,5 @@
-import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { X } from 'lucide-react';
+import {motion, AnimatePresence} from 'framer-motion';
+import {X} from 'lucide-react';
 import Button from '@mui/material/Button';
 
 interface MobileMenuProps {
@@ -8,7 +7,7 @@ interface MobileMenuProps {
     onClose: () => void;
 }
 
-const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
+const MobileMenu: React.FC<MobileMenuProps> = ({isOpen, onClose}) => {
     return (
         <AnimatePresence>
             {isOpen && (

@@ -1,11 +1,11 @@
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
 
 const skills: string[] = [
     "Spring Boot", "Java", "Maven",
     "Microservices", "Spring Security", "RESTful APIs", "Rest Assured",
     "JPA / Hibernate", "PostgreSQL", "Swagger", "Postman",
     "Testcontainers", "CI/CD", "Git", "TDD",
-    "JUnit", "Mockito", "Cucumber", "Selenium",
+    "JUnit", "Mockito", "BDD", "Cucumber", "Selenium", "Backend Testing", "UI Testing",
 ];
 
 const Skills: React.FC = () => {

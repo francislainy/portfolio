@@ -1,6 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { GitBranch } from 'lucide-react';
+import {motion} from 'framer-motion';
+import {GitBranch} from 'lucide-react';
 import Button from "@mui/material/Button";
 
 interface ProjectDescriptionProps {

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Menu } from 'lucide-react';
+import {useState} from 'react';
+import {Menu} from 'lucide-react';
 import Button from '@mui/material/Button';
 import MobileMenu from './MobileMenu.tsx';
 
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
                     </Button>
                 </div>
             </div>
-            <MobileMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+            <MobileMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)}/>
         </header>
     );
 }
