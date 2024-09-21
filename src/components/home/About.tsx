@@ -11,7 +11,7 @@ const About: React.FC = () => {
                     transition={{duration: 0.8}}
                     className="text-5xl md:text-7xl font-bold mb-6"
                 >
-                    Spring Boot Developer
+                    Java Backend Developer
                 </motion.h2>
                 <motion.p
                     initial={{opacity: 0, y: 20}}
@@ -19,7 +19,7 @@ const About: React.FC = () => {
                     transition={{duration: 0.8, delay: 0.2}}
                     className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto"
                 >
-                    Crafting robust, scalable backend solutions with Spring Boot and microservices architecture.
+                    Crafting robust, testable backend solutions with Spring Boot.
                 </motion.p>
             </div>
         </section>
