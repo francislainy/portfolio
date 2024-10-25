@@ -1,4 +1,4 @@
-import {BookOpen, LayoutTemplate, LucideIcon, MonitorStop} from 'lucide-react';
+import {BookOpen, Braces, LayoutTemplate, LucideIcon, MonitorStop} from 'lucide-react';
 
 interface Project {
     id: number;
@@ -58,7 +58,7 @@ const projectsData: Project[] = [
         title: "Playwright BDD Java",
         description: "A sample project demonstrating how to use Playwright with Java and Cucumber for end-to-end testing of web applications.",
         icon: MonitorStop,
-        technologies: ["Java", "Sprint Boot", "Playwright", "Cucumber", "BDD"],
+        technologies: ["Java", "Spring Boot", "Playwright", "Cucumber", "BDD"],
         overview: "This project demonstrates how to use Playwright with Java and Cucumber to write end-to-end tests for web applications. It includes examples of writing feature files, step definitions, and running tests with Playwright.",
         keyFeatures: [
             "Writing feature files with Gherkin syntax",
@@ -68,6 +68,21 @@ const projectsData: Project[] = [
         longerDescription: "The `playwright-bdd-java` project is a sample project demonstrating how to use Playwright with Java and Cucumber for end-to-end testing of web applications. Playwright is a Node.js library for automating browsers, and Cucumber is a popular tool for writing BDD-style tests. By combining these tools, developers can write expressive, readable tests that validate the behavior of web applications.",
         githubUrl: "https://github.com/francislainy/playwright-demo",
     },
+    {
+        id: 4,
+        title: "Cucumber Spring Boot",
+        description: "A sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs.",
+        icon: Braces,
+        technologies: ["Java", "Spring Boot", "Maven", "Cucumber", "BDD", "Rest Assured"],
+        overview: "This project demonstrates how to configure and use Cucumber with Spring Boot and Java to write BDD-style tests for RESTful APIs. It includes examples of writing feature files, step definitions, and running tests with Cucumber.",
+        keyFeatures: [
+            "Writing feature files with Gherkin syntax",
+            "Implementing step definitions with Java and Cucumber",
+            "Running BDD-style tests with Cucumber",
+        ],
+        longerDescription: "The `cucumber-spring-boot` project is a sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs. Cucumber is a popular tool for writing BDD-style tests, and Spring Boot is a powerful framework for building Java applications. By combining these tools, developers can write expressive, readable tests that validate the behavior of RESTful APIs.",
+        githubUrl: "",
+    }
 ];
 
 export default projectsData;
