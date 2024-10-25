@@ -81,7 +81,7 @@ const projectsData: Project[] = [
             "Running BDD-style tests with Cucumber",
         ],
         longerDescription: "The `cucumber-spring-boot` project is a sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs. Cucumber is a popular tool for writing BDD-style tests, and Spring Boot is a powerful framework for building Java applications. By combining these tools, developers can write expressive, readable tests that validate the behavior of RESTful APIs.",
-        githubUrl: "",
+        githubUrl: "https://github.com/francislainy/cucumber-spring-boilerplate",
     }
 ];
 
