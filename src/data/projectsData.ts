@@ -18,7 +18,7 @@ const projectsData: Project[] = [
     {
         id: 1,
         title: "Du Chinese Backend",
-        description: "A backend service for managing users and lessons for mimicking the Du Chinese application.",
+        description: "A backend service for managing users and lessons for mimicking the Du Chinese application, which helps language learners to improve their proficiency level by reading Chinese stories.",
         icon: BookOpen,
         technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL"],
         overview: "This project is a Spring Boot application that provides RESTful APIs for user management and lesson interactions. It includes functionalities such as creating users, favoriting lessons, and marking lessons as read or unread.",
