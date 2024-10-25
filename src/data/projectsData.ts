@@ -1,4 +1,4 @@
-import {BookOpen, Braces, LayoutTemplate, LucideIcon, MonitorStop} from 'lucide-react';
+import {BookOpen, Braces, Languages, LayoutTemplate, LucideIcon, MonitorStop} from 'lucide-react';
 
 interface Project {
     id: number;
@@ -82,6 +82,20 @@ const projectsData: Project[] = [
         ],
         longerDescription: "The `cucumber-spring-boot` project is a sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs. Cucumber is a popular tool for writing BDD-style tests, and Spring Boot is a powerful framework for building Java applications. By combining these tools, developers can write expressive, readable tests that validate the behavior of RESTful APIs.",
         githubUrl: "https://github.com/francislainy/cucumber-spring-boilerplate",
+    },
+    {
+        id: 5,
+        title: "Hanzi 3000",
+        description: "A web application to help Chinese language learners test their knowledge of the 3000 most commonly used Chinese characters.",
+        icon: Languages,
+        technologies: ["React", "Javascript"],
+        overview: "This project is a web application that allows users to test their knowledge of the 3000 most commonly used Chinese characters. Users can select characters to test themselves on and receive feedback on their performance.",
+        keyFeatures: [
+            "Selecting characters to test",
+            "Receiving feedback on performance",
+        ],
+        longerDescription: "The `hanzi-3000` project is a web application that helps Chinese language learners test their knowledge of the 3000 most commonly used Chinese characters. The application allows users to select characters to test themselves on and provides feedback on their performance.",
+        githubUrl: "https://github.com/francislainy/hanzi-3000",
     }
 ];
 
