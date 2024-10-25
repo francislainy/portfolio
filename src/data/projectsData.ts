@@ -1,4 +1,4 @@
-import {BookOpen, LayoutTemplate, LucideIcon} from 'lucide-react';
+import {BookOpen, LayoutTemplate, LucideIcon, Monitor, MonitorStop} from 'lucide-react';
 
 interface Project {
     id: number;
@@ -53,6 +53,23 @@ const projectsData: Project[] = [
         longerDescription: "The `jte-template` project is a template for building Java applications using the Java Template Engine (JTE) library. JTE is a lightweight, high-performance template engine for Java that compiles templates to Java source code, providing a fast and efficient way to generate dynamic content.",
         githubUrl: "https://github.com/francislainy/jteTemplate-poc",
     },
+    {
+        id: 3,
+        title: "Playwright BDD Java",
+        description: "A sample project demonstrating how to use Playwright with Java and Cucumber for end-to-end testing of web applications.",
+        icon: MonitorStop,
+        technologies: ["Java", "Sprint Boot", "Playwright", "Cucumber", "BDD"],
+        overview: "This project demonstrates how to use Playwright with Java and Cucumber to write end-to-end tests for web applications. It includes examples of writing feature files, step definitions, and running tests with Playwright.",
+        keyFeatures: [
+            "Writing feature files with Gherkin syntax",
+            "Implementing step definitions with Java and Cucumber",
+            "Running end-to-end tests with Playwright",
+        ],
+        longerDescription: "The `playwright-bdd-java` project is a sample project demonstrating how to use Playwright with Java and Cucumber for end-to-end testing of web applications. Playwright is a Node.js library for automating browsers, and Cucumber is a popular tool for writing BDD-style tests. By combining these tools, developers can write expressive, readable tests that validate the behavior of web applications.",
+        githubUrl: "https://github.com/francislainy/playwright-demo",
+    },
+
+
 
 ];
 
