@@ -1,4 +1,4 @@
-import {BookOpen} from 'lucide-react';
+import {BookOpen, Code} from 'lucide-react';
 import {LucideIcon} from 'lucide-react';
 
 interface Project {
@@ -18,7 +18,7 @@ const projectsData: Project[] = [
     {
         id: 1,
         title: "Du Chinese Backend",
-        description: "A backend service for managing users and lessons for mimicking the Du Chinese application, which helps language learners to improve their proficiency level by reading Chinese stories.",
+        description: "A backend service for managing users and lessons while mimicking the Du Chinese application, which helps language learners to improve their proficiency level by reading Chinese stories.",
         icon: BookOpen,
         technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL"],
         overview: "This project is a Spring Boot application that provides RESTful APIs for user management and lesson interactions. It includes functionalities such as creating users, favoriting lessons, and marking lessons as read or unread.",
@@ -40,6 +40,21 @@ const projectsData: Project[] = [
         ],
         githubUrl: "https://github.com/francislainy/du-chinese-be",
     },
+    {
+        id: 2,
+        title: "JTETemplate",
+        description: "A template project for building Java/Spring Boot applications using the Java Template Engine (JTE) library. It also includes Tailwind CSS for styling the front end.",
+        icon: Code,
+        technologies: ["Java", "Spring Boot", "Maven", "JTE", "Tailwind CSS"],
+        overview: "This project is a template for building Java applications using the Java Template Engine (JTE) library. It includes a simple example of rendering a template with dynamic data and styled with Tailwind CSS.",
+        keyFeatures: [
+            "Rendering templates with dynamic data through JTE and Java pojo objects",
+            "Styling with Tailwind CSS",
+        ],
+        longerDescription: "The `jte-template` project is a template for building Java applications using the Java Template Engine (JTE) library. JTE is a lightweight, high-performance template engine for Java that compiles templates to Java source code, providing a fast and efficient way to generate dynamic content.",
+        githubUrl: "https://github.com/francislainy/jteTemplate-poc",
+    },
+
 ];
 
 export default projectsData;
