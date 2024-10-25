@@ -1,4 +1,4 @@
-import {BookOpen, LayoutTemplate, LucideIcon, Monitor, MonitorStop} from 'lucide-react';
+import {BookOpen, LayoutTemplate, LucideIcon, MonitorStop} from 'lucide-react';
 
 interface Project {
     id: number;
@@ -68,9 +68,6 @@ const projectsData: Project[] = [
         longerDescription: "The `playwright-bdd-java` project is a sample project demonstrating how to use Playwright with Java and Cucumber for end-to-end testing of web applications. Playwright is a Node.js library for automating browsers, and Cucumber is a popular tool for writing BDD-style tests. By combining these tools, developers can write expressive, readable tests that validate the behavior of web applications.",
         githubUrl: "https://github.com/francislainy/playwright-demo",
     },
-
-
-
 ];
 
 export default projectsData;
