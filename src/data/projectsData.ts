@@ -1,5 +1,4 @@
-import {BookOpen, Code} from 'lucide-react';
-import {LucideIcon} from 'lucide-react';
+import {BookOpen, LayoutTemplate, LucideIcon} from 'lucide-react';
 
 interface Project {
     id: number;
@@ -44,7 +43,7 @@ const projectsData: Project[] = [
         id: 2,
         title: "JTETemplate",
         description: "A template project for building Java/Spring Boot applications using the Java Template Engine (JTE) library. It also includes Tailwind CSS for styling the front end.",
-        icon: Code,
+        icon: LayoutTemplate,
         technologies: ["Java", "Spring Boot", "Maven", "JTE", "Tailwind CSS"],
         overview: "This project is a template for building Java applications using the Java Template Engine (JTE) library. It includes a simple example of rendering a template with dynamic data and styled with Tailwind CSS.",
         keyFeatures: [
