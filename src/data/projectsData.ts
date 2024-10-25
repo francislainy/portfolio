@@ -88,8 +88,8 @@ const projectsData: Project[] = [
         title: "Hanzi 3000",
         description: "A web application to help Chinese language learners test their knowledge of the 3000 most commonly used Chinese characters.",
         icon: Languages,
-        technologies: ["React", "Javascript"],
-        overview: "This project is a web application that allows users to test their knowledge of the 3000 most commonly used Chinese characters. Users can select characters to test themselves on and receive feedback on their performance.",
+        technologies: ["React", "Javascript", "Github Pages"],
+        overview: "This project is a web application that allows users to test their knowledge of the 3000 most commonly used Chinese characters. Users can select characters to test themselves on and receive feedback on their performance. It is built using React and JavaScript and deployed using Github Pages.",
         keyFeatures: [
             "Selecting characters to test",
             "Receiving feedback on performance",
