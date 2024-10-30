@@ -2,6 +2,7 @@ import {useState} from 'react';
 import {Menu} from 'lucide-react';
 import Button from '@mui/material/Button';
 import MobileMenu from './MobileMenu.tsx';
+import {Link} from "react-router-dom";
 
 const Header: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -14,6 +15,7 @@ const Header: React.FC = () => {
                     <a href="#about" className="hover:text-gray-300 transition-colors">About</a>
                     <a href="#projects" className="hover:text-gray-300 transition-colors">Projects</a>
                     <a href="#skills" className="hover:text-gray-300 transition-colors">Skills</a>
+                    <Link to="/gists" className="hover:text-gray-300 transition-colors">Gists</Link>
                     <a href="#contact" className="hover:text-gray-300 transition-colors">Contact</a>
                 </nav>
                 <div className="md:hidden">
