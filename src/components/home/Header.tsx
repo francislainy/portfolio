@@ -2,7 +2,6 @@ import {useState} from 'react';
 import {Menu} from 'lucide-react';
 import Button from '@mui/material/Button';
 import MobileMenu from './MobileMenu.tsx';
-import {Link} from "react-router-dom";
 
 const Header: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
