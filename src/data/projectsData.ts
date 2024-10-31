@@ -1,4 +1,4 @@
-import {BookOpen, Braces, Languages, LayoutTemplate, LucideIcon, MonitorStop} from 'lucide-react';
+import {BookOpen, Braces, Languages, LayoutTemplate, LucideIcon, MonitorStop, Users} from 'lucide-react';
 
 interface Project {
     id: number;
@@ -15,11 +15,29 @@ interface Project {
 
 const projectsData: Project[] = [
     {
+        id: 6,
+        title: "Hello Talk",
+        description: "A Spring Boot application designed to feed a language learning system similar to the HelloTalk app.",
+        icon: Users,
+        technologies: ["Java", "Spring Boot", "PostgreSQL", "Maven", "TDD", "PACT contract tests", "MapStruct", "Sonarqube", "Spotless"],
+        overview: "This project is a Spring Boot application that allows users to interact with other users who are native in the language they are interested in learning but are also learning the language their partner is native in. They can do this by creating posts and comments and following other users.",
+        keyFeatures: [
+            "Allowing users to create posts and comments",
+            "Allowing users to follow other users",
+            "Pact contract tests",
+            "MapStruct for mapping entities and DTOs",
+            "Sonarqube for code quality",
+            "Spotless for code formatting",
+        ],
+        longerDescription: "A Spring Boot application designed to feed a language learning system similar to the HelloTalk app. It allows users to interact with other users who are native in the language they are interested in learning but are also learning the language their partner is native in. For example, a Brazilian person learning Chinese can interact with Chinese users who are learning Portuguese.",
+        githubUrl: "https://github.com/francislainy/hellotalk",
+    },
+    {
         id: 1,
         title: "Du Chinese Backend",
         description: "A backend service for managing users and lessons while mimicking the Du Chinese application, which helps language learners to improve their proficiency level by reading Chinese stories.",
         icon: BookOpen,
-        technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL"],
+        technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL", "PostgreSQL", "H2"],
         overview: "This project is a Spring Boot application that provides RESTful APIs for user management and lesson interactions. It includes functionalities such as creating users, favoriting lessons, and marking lessons as read or unread.",
         keyFeatures: [
             "User creation and management",
@@ -96,7 +114,7 @@ const projectsData: Project[] = [
         ],
         longerDescription: "The `hanzi-3000` project is a web application that helps Chinese language learners test their knowledge of the 3000 most commonly used Chinese characters. The application allows users to select characters to test themselves on and provides feedback on their performance.",
         githubUrl: "https://github.com/francislainy/hanzi-3000",
-    }
+    },
 ];
 
 export default projectsData;
