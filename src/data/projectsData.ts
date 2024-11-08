@@ -1,4 +1,4 @@
-import {BookOpen, Braces, Languages, LayoutTemplate, LucideIcon, MonitorStop, Users} from 'lucide-react';
+import {BookOpen, Braces, Languages, LayoutTemplate, LucideIcon, MonitorStop, Users, ShieldQuestion} from 'lucide-react';
 
 interface Project {
     id: number;
@@ -15,11 +15,11 @@ interface Project {
 
 const projectsData: Project[] = [
     {
-        id: 6,
+        id: 1,
         title: "Hello Talk",
         description: "A Spring Boot application designed to feed a language learning system similar to the HelloTalk app.",
         icon: Users,
-        technologies: ["Java", "Spring Boot", "PostgreSQL", "Maven", "TDD", "PACT contract tests", "MapStruct", "Sonarqube", "Spotless"],
+        technologies: ["Java", "Spring Boot", "PostgreSQL", "Maven", "Exception Handling", "TDD", "JUnit", "PACT contract tests", "TestContainers", "MapStruct", "Sonarqube", "Spotless"],
         overview: "This project is a Spring Boot application that allows users to interact with other users who are native in the language they are interested in learning but are also learning the language their partner is native in. They can do this by creating posts and comments and following other users.",
         keyFeatures: [
             "Allowing users to create posts and comments",
@@ -33,11 +33,11 @@ const projectsData: Project[] = [
         githubUrl: "https://github.com/francislainy/hellotalk",
     },
     {
-        id: 1,
+        id: 2,
         title: "Du Chinese Backend",
         description: "A backend service for managing users and lessons while mimicking the Du Chinese application, which helps language learners to improve their proficiency level by reading Chinese stories.",
         icon: BookOpen,
-        technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUNIT", "SQL", "PostgreSQL", "H2"],
+        technologies: ["Java", "Spring Boot", "Spring Security", "Maven", "TDD", "JUnit", "SQL", "PostgreSQL", "H2", "JSON Views"],
         overview: "This project is a Spring Boot application that provides RESTful APIs for user management and lesson interactions. It includes functionalities such as creating users, favoriting lessons, and marking lessons as read or unread.",
         keyFeatures: [
             "User creation and management",
@@ -58,7 +58,25 @@ const projectsData: Project[] = [
         githubUrl: "https://github.com/francislainy/du-chinese-be",
     },
     {
-        id: 2,
+        id: 3,
+        title: "Stack Overflow Clone",
+        description: "A clone of the Stack Overflow APIs built with Spring Boot.",
+        icon: ShieldQuestion,
+        technologies: ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "Maven", "TDD", "JUnit", "Mockito", "TestContainers"],
+        overview: "This project is a clone of the Stack Overflow website built with React and Spring Boot. It includes features such as user registration and authentication, posting and answering questions, and voting on questions and answers.",
+        keyFeatures: [
+            "User registration and authentication",
+            "Posting and answering questions",
+            "Voting on questions and answers",
+            "Integration with PostgreSQL database",
+            "Unit and integration tests using JUnit and Mockito",
+            "Styling with Tailwind CSS",
+        ],
+        longerDescription: "The `stack-overflow-clone` project is a clone of the Stack Overflow capabilities through REST APIs and Spring Boot. It includes features such as user registration and authentication, posting and answering questions, and voting on questions and answers. The project uses a PostgreSQL database for data storage and includes unit and integration tests to ensure code quality.",
+        githubUrl: "https://github.com/francislainy/so-be",
+    },
+    {
+        id: 4,
         title: "JTETemplate",
         description: "A template project for building Java/Spring Boot applications using the Java Template Engine (JTE) library. It also includes Tailwind CSS for styling the front end.",
         icon: LayoutTemplate,
