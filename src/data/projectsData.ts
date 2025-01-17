@@ -90,7 +90,7 @@ const projectsData: Project[] = [
         githubUrl: "https://github.com/francislainy/jteTemplate-poc",
     },
     {
-        id: 3,
+        id: 5,
         title: "Playwright BDD Java",
         description: "A sample project demonstrating how to use Playwright with Java and Cucumber for end-to-end testing of web applications.",
         icon: MonitorStop,
@@ -105,7 +105,7 @@ const projectsData: Project[] = [
         githubUrl: "https://github.com/francislainy/playwright-demo",
     },
     {
-        id: 4,
+        id: 6,
         title: "Cucumber Spring Boot",
         description: "A sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs.",
         icon: Braces,
@@ -120,7 +120,7 @@ const projectsData: Project[] = [
         githubUrl: "https://github.com/francislainy/cucumber-spring-boilerplate",
     },
     {
-        id: 5,
+        id: 7,
         title: "Hanzi 3000",
         description: "A web application to help Chinese language learners test their knowledge of the 3000 most commonly used Chinese characters.",
         icon: Languages,
