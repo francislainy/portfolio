@@ -106,7 +106,7 @@ const projectsData: Project[] = [
     },
     {
         id: 6,
-        title: "Cucumber Spring Boot",
+        title: "Cucumber Spring Boot - Maven",
         description: "A sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs.",
         icon: Braces,
         technologies: ["Java", "Spring Boot", "Maven", "Cucumber", "BDD", "Rest Assured"],
@@ -121,6 +121,21 @@ const projectsData: Project[] = [
     },
     {
         id: 7,
+        title: "Cucumber Spring Boot - Gradle",
+        description: "A sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs.",
+        icon: Braces,
+        technologies: ["Java", "Spring Boot", "Gradle", "Cucumber", "BDD", "Rest Assured"],
+        overview: "This project demonstrates how to configure and use Cucumber with Spring Boot and Java to write BDD-style tests for RESTful APIs. It includes examples of writing feature files, step definitions, and running tests with Cucumber.",
+        keyFeatures: [
+            "Writing feature files with Gherkin syntax",
+            "Implementing step definitions with Java and Cucumber",
+            "Running BDD-style tests with Cucumber",
+        ],
+        longerDescription: "The `cucumber-spring-boot` project is a sample project demonstrating how to use Cucumber with Spring Boot and Java for testing RESTful APIs. Cucumber is a popular tool for writing BDD-style tests, and Spring Boot is a powerful framework for building Java applications. By combining these tools, developers can write expressive, readable tests that validate the behavior of RESTful APIs.",
+        githubUrl: "https://github.com/francislainy/cucumber-spring-boilerplate-gradle",
+    },
+    {
+        id: 8,
         title: "Hanzi 3000",
         description: "A web application to help Chinese language learners test their knowledge of the 3000 most commonly used Chinese characters.",
         icon: Languages,
